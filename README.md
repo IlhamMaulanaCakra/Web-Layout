@@ -1,4 +1,9 @@
 # Web-Layout
+
+Nama : Ilham Maulana Cakra Dwi Noto
+NIM : 312110027
+Kelas : TI.21.A.1
+
 Berisikan HTML dan CSS
 
 ![Screenshot (1)](https://user-images.githubusercontent.com/92771347/224871542-3f888067-6386-4be5-bff4-583290bf52c1.png)
