@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Web Sederhana</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Layout Web Sederhana</h1>
+        </header>
+        <nav>
+            <ul>
+              <a href="index.html" class="active">Home</a>
+              <a href="#article">Artikel</a>
+              <a href="about">About</a>
+              <a href="contact">Kontak</a>
+            </ul>
+          </nav>
+      <section id="hero">
+        <h1>Halo Dunia</h1>
+        <p>
+         Saya Ilham Maulana cakra Dwi Noto,
+         disini saya membuat Web Layout untuk tugas HTML dan CSS.
+        </p>
+        <a href="#"
+          ><button class="button" style="vertical-align: middle">
+            <span>Learn more </span>
+          </button></a
+        >
+      </section>
+      <section id="wrapper">
+        <section id="main">
+          <div class="row">
+            <div class="box">
+              <img
+                src="gambar/html.png"
+                alt=""
+                class="image-circle"
+              />
+              <h3>HTML</h3>
+              <p>
+                HTML is the standard markup language for Web pages.
+                With HTML you can create your own Website.
+              </p>
+              <a href="#"
+                ><button type="button" class="button-img">
+                  View detail
+                </button></a
+              >
+            </div>
+            <div class="box">
+              <img
+                src="gambar/css.png"
+                alt=""
+                class="image-circle"
+              />
+              <h3>CSS</h3>
+              <p>
+                CSS is the language we use to style an HTML document.
+                CSS describes how HTML elements should be displayed.
+              </p>
+              <a href="#"
+                ><button type="button" class="button-img">
+                  View detail
+                </button></a
+              >
+            </div>
+            <div class="box">
+              <img
+                src="gambar/js.png"
+                alt=""
+                class="image-circle"
+              />
+              <h3>JavaScript</h3>
+              <p>
+                JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions.
+                While it is most well-known as the scripting language for Web
+              </p>
+              <a href="#"
+                ><button type="button" class="button-img">
+                  View detail
+                </button></a
+              >
+            </div>
+          </div>
+
+          <hr class="divider" />
+          <article id="article" class="entry">
+            <h2>Fungsi HTML</h2>
+            <img src="gambar/html1.JPG" alt="" />
+            <p>
+              HTML difungsikan untuk menyajikan konten, menghubungkan link antar halaman, memberi kerangka serta info terkait dengan sebuah halaman web. Konten sebuah web tidak hanya terbatas pada teks saja, melainkan konten interaktif lainnya seperti video, audio, gambar dan animasi dapat disisipkan dan ditampilkan pada halaman web.
+            </p>
+          </article>
+          <hr class="divider" />
+          <article class="entry">
+            <h2>Fungsi CSS.</h2>
+            <img
+              src="gambar/css1.png"
+              alt=""
+              class="right-img"
+            />
+            <p>
+              Fungsi CSS pada web yaitu untuk merancang, mendesain, merubah dan membentuk halaman sebuah web atau blog dan isi dari halaman web tersebut yaitu tag-tah html. Logikanya fungsi CSS dalam html yaitu mengubah tag-tag html yang sederhana menjadi lebih menarik dan fungsional. Jadi fungsi CSS pada html sangatlah penting.
+            </p>
+          </article>
+        </section>
+
+        <div class="menu-kanan">
+          <div class="kotak">
+              <h3>About me</h3>           
+  <table>
+
+      <p><tr>
+             <td>Kelas</td>
+             <td>:</td>
+             <td>TI.21.A.1</td>
+             <td>&nbsp;</td>
+     </tr></p>
+
+     <p><tr>
+             <td>Nama</td>
+             <td>:</td>
+             <td>Ilham Maulana Cakra Dwi Noto</td>
+             <td>&nbsp;</td>
+     </tr></p>
+
+     <p><tr>
+             <td>Nim</td>
+             <td>:</td>
+             <td>312110027</td>
+             <td>&nbsp;</td>
+     </tr></p>
+
+     </table>
+          </div>
+
+
+          <div class="kotak">
+              <h3>Kesan</h3>
+              <table>
+                  <p><tr>
+
+                         <td>Saya belajar banyak dalam membuat Web Layout dengan CSS</td>
+                         <td>&nbsp;</td>
+                 </tr></p>
+                 
+                 </table>
+                      </div>
+                  
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </section>
+      <footer>
+        <p>&copy; 2023 - Universitas Pelita Bangsa</p>
+      </footer>
+    </div>
+  </body>
+</html>
